@@ -5,11 +5,11 @@ This API proxy creates and validates signed JWT, aka JSON Web Tokens.
 JWT is an IETF standard.
 https://tools.ietf.org/html/rfc7519
 
-In short, JWT are just a special kind of OAuth v2 token.  The [Oauth v2
+In short, JWT are just a special kind of OAuth v2 token.  The [OAuth v2
 spec] (https://tools.ietf.org/html/rfc6749#section-1.4) says that Bearer tokens are strings that:
 
-- are usually opaque to the client. 
-- may denote an identifier used to retrieve the authorization
+- Are usually opaque to the client. 
+- May denote an identifier used to retrieve the authorization
   information or may self-contain the authorization information in a
   verifiable manner
 
@@ -26,8 +26,8 @@ things.
 Deploying
 ========
 
-Before you deploy the proxy you need to create a cache on the 
-environment. The cache should be named 'cache1'.  
+Before you deploy the proxy you need to [create a cache on the 
+environment](http://docs.apigee.com/api-services/content/manage-caches-environment). The cache should be named 'cache1'.  
 
 
 Invoking
