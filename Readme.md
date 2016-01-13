@@ -1,7 +1,10 @@
 # iloveapis2015-jwt-jwe-jws
 
-This is the top-level project containing source code, documentation, and tools for the Devevloper Forum session entitied "ADVANCED SECURITY EXTENSIONS IN APIGEE EDGE: JWT, JWE, JWS"
+This is the top-level project containing source code, documentation, and tools for the Devevloper Forum session entitied **Advanced Security Extensions in Apigee Edge - JWT, JWE, JWS**
  at the 2015 I-love-APIs conference in San Jose, California, from 12-14 October.
+ 
+Slides from this presentation are included in this repository in the [Advanced Sec - JWT, JWE, JWS.pdf
+](Advanced%20Sec%20-%20JWT%252C%20JWE%252C%20JWS.pdf) file.
 
 
 ## What's going on here?
@@ -18,7 +21,7 @@ Each directory includes the Java source code for a callout, as well as an exampl
 
 ## Pre-build step
 
-It is not necessary to build the Java source code contained in the subdirectories here, in order to use the JWT or JWE policies in Apigee Edge.  But, if you do wish to build, to allow the maven builds to succeed, you need to first run the buildsetup.sh script on your workstation. This adds the Apigee-required jars into the local maven repository (your local cache). 
+It is not necessary to build the Java source code contained in the subdirectories here, in order to use the JWT or JWE policies in Apigee Edge.  But, if you do wish to build, to allow the maven builds to succeed, you need to first run the `buildsetup.sh` script on your workstation. This adds the Apigee-required jars into the local maven repository (your local cache). 
 
 Do this like so: 
 
